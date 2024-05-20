@@ -76,26 +76,26 @@
                 <h2 class="title">Contáctame <span>.</span></h2>
                 <hr class="line">
                 <div class="contact_container">
-                    <form action="post">
+                    <form action="post" id="userForm">
                         <div class="form_name_row">
                             <div class="left_form_row">
                                 <label>Nombre</label>
-                                <input type="text" required placeholder="Ingresa tu nombre">
+                                <input type="text" name="nombre" id="nombre" required placeholder="Ingresa tu nombre">
                             </div>
                             <div class="right_form_row">
                                 <label>Apellido</label>
-                                <input type="text" required placeholder="Ingresa tu apellido">
+                                <input type="text" name="apellido" id="apellido" required placeholder="Ingresa tu apellido">
                             </div>
                         </div>
                         <label>Correo</label>
-                        <input type="email" name="" id="" required placeholder="Ingresa correo">
+                        <input type="email" name="email" id="email" required placeholder="Ingresa correo">
                         <label>Número celular</label>
-                        <input type="text" name="" id="" required placeholder="Ingresa tu numero">
+                        <input type="text" name="celular" id="celular" required placeholder="Ingresa tu numero">
                         <label>Asunto</label>
-                        <input type="text" name="" id="" required placeholder="Ingresa el asunto">
+                        <input type="text" name="asunto" id="asunto" required placeholder="Ingresa el asunto">
                         <label>Mensaje</label>
-                        <textarea name="" id="" cols="30" rows="10" required placeholder="Ingresa mensaje"></textarea>
-                        <input type="submit" value="Enviar" id="send_button">
+                        <textarea name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Ingresa mensaje"></textarea>
+                        <input type="submit" name="submit" value="Enviar" id="send_button">
                     </form>
                 </div>
             </div>
